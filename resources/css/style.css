@@ -1,0 +1,269 @@
+/*
+Dark color:#141414
+Bronze color:#b48938
+Text color:#e2e2e2
+*/
+
+/*----------------------*/
+/*BASIC*/
+/*----------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #000000;
+    color: #e2e2e2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.experience:before {
+    margin-top: -80px;
+    height: 80px;
+    content: "";
+    display:block;
+}
+
+span.anchor {
+    margin-top: -80px;
+    display: block;
+    height: 80px;
+    visibility: hidden;
+    position: relative;
+}
+
+/*----------------------*/
+/*REUSABLE*/
+/*----------------------*/
+
+.abort {
+    border-bottom: 2px solid #b48938!important;
+    margin: 25px auto;
+}
+
+/*----HEADINGS----*/
+h1 {
+    font-weight: 400;
+    color: #b48938;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 300;
+    color: #b48938;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #b48938;
+    text-transform: uppercase;
+}
+
+/*----ICONS_SOCIAL----*/
+
+.icon-facebook-squared{
+    color: #3a5998;
+}
+
+.icon-facebook-squared:hover{
+    color: #2a4887;
+}
+
+.icon-gplus-squared{
+    color: #dd4b39;
+}
+
+.icon-gplus-squared:hover{
+    color: #cc3c28;
+}
+
+.icon-pinterest-squared{
+    color: #c8232c;
+}
+
+.icon-pinterest-squared:hover{
+    color: #b7121b;
+}
+
+.icon-instagram{
+    color: #e4405f;
+}
+
+.icon-instagram:hover{
+    color: #d3304e;
+}
+
+
+/*----------------------*/
+/*HEADER*/
+/*----------------------*/
+
+
+/*----------------------*/
+/*NAVIGATION*/
+/*----------------------*/
+
+.navbar-custom {
+    background-color: #070707!important;
+    opacity: .95;
+}
+
+.navbar-cus ul li a {
+    color: #e2e2e2!important;
+}
+
+.navbar-cus ul li a:hover {
+    color: #b48938!important;
+}
+
+.navbar-cus .dropdown-menu a:hover {
+    background-color: transparent!important;
+}
+
+
+/*----------------------*/
+/*SECTIONS_ABOUT ME*/
+/*----------------------*/
+
+.about p {
+    letter-spacing: 2px;
+}
+
+.about img {
+    border-radius: 10px;
+}
+
+/*----------------------*/
+/*SECTIONS_PASSIONS*/
+/*----------------------*/
+
+.passion p {
+    letter-spacing: 2px;
+}
+
+.passion img {
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.passion figure::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0) 100%);
+    margin-top: -145px;
+    height: 150px;
+    width: 100%;
+    content: '';
+}
+
+.btn-my {
+    color: #e2e2e2;
+    background-color: #000000!important;
+    border-color: #b48938!important;
+}
+
+.btn-my:hover {
+    color: #000000;
+    background-color: #b48938!important;
+    border-color: #000000!important;
+}
+
+
+/*----------------------*/
+/*SECTIONS_EXPERIENCE*/
+/*----------------------*/
+
+.carousel-inner img {
+    margin: auto;
+    opacity: 1!important;
+}
+
+.carousel-item::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0) 100%);
+    margin-top: -95px;
+    height: 100px;
+    width: 100%;
+    content: '';
+}
+
+.carousel-item:before {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent 100%);
+    height: 100px;
+    width: 100%;
+    content: '';
+}
+
+.experience h5,
+.experience p {
+    color: #e2e2e2!important;
+}
+
+/*----------------------*/
+/*FOOTER*/
+/*----------------------*/
+
+footer div .my_link{
+    text-decoration: none;
+}
+
+footer .con_square {
+    color: #e2e2e2;
+    display: block;
+    text-align: center;
+    font-size: 300%;
+    transition: 0.5s all ease-in-out;
+}
+
+footer .con_square:hover {
+    border: none;
+    color: #b48938;
+    transform: scale(1.05);
+}
+
+footer p {
+    letter-spacing: 2px;
+}
+
+.col_abort {
+    border-bottom: 2px solid #b48938!important;
+}
+
+/*----------------------*/
+/*ANIMATIONS*/
+/*----------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated{
+    opacity: 1;
+}
