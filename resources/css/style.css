@@ -220,6 +220,33 @@ h3 {
     color: #e2e2e2!important;
 }
 
+.workIn {
+    opacity: .0;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 120%;
+    transition: 0.4s all ease-in-out;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+
+.workInProgres:hover .workIn {
+    opacity: 1;
+    color: rgba(0, 0, 0, 1)!important;
+}
+
+.workInProgres:hover {
+    opacity: .95!important;
+    transform: scale(1.01);
+}
+
+.workInProgres:hover .workOut {
+    opacity: .4!important;
+}
+
 /*----------------------*/
 /*FOOTER*/
 /*----------------------*/
