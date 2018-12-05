@@ -26,6 +26,10 @@ body{
     overflow-x: hidden;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .clearfix{zoom: 1}
 .clearfix:after{
     content: '.';
