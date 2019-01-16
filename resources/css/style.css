@@ -298,3 +298,46 @@ footer p {
 .js--wp-3.animated{
     opacity: 1;
 }
+
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+html, body {font-size:14px;} 
+.carousel-none {display: none;}
+h4 {font-size:14px;}  
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+    html, body {font-size:16px;}
+    h4 {font-size: 20px;} 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    html, body {font-size:16px;} 
+    h4 {font-size: 20px;} 
+    .carousel-none {display: block;}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    html, body {font-size:18px;} 
+    h4 {font-size: 22px;} 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  html, body {font-size:20px;}
+  h4 {font-size: 24px;}  
+}
+ 
+/*
