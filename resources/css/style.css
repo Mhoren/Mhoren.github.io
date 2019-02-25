@@ -320,6 +320,11 @@ Bootstrap 4 breakpoints
     html, body {font-size:16px;}
     h4 {font-size: 20px;} 
 }
+
+@media (max-width: 575px) {
+    .experience {padding-top: 20px;}
+    .experience .abort {margin-top: 80px;}
+}
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
